@@ -682,6 +682,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transform:scale(1);
     transform:scale(1);
     top:0;
+    color: white;
 }/*.isotope-overlay*/
 
 /*-------------------------------------
@@ -869,4 +870,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+.skill {
+    background-color: #1f2c6c;
+    border: 1px solid black;
+    color: white;
+    margin: 5px;
+}
+
+.skill:hover {
+    color: white;
+}
+
 /*========================Thank you=================
