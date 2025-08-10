@@ -668,6 +668,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 .isotope-overlay a {
     display: inline-block;
@@ -683,6 +686,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
     color: white;
+    padding: 10px;
 }/*.isotope-overlay*/
 
 /*-------------------------------------
@@ -881,5 +885,33 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .skill:hover {
     color: white;
 }
+
+/* start certificates */
+
+.certificate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group-item.certificate a {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.list-group-item.certificate a:hover {
+    padding: 5px;
+}
+
+/* end certificates */
+
+/* start small projects */
+.small-projects {
+    margin-top: 50px;
+}
+
+.small-projects-content {
+    margin-top: 100px;
+}
+/* end small projects */
 
 /*========================Thank you=================
